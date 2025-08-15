@@ -95,9 +95,9 @@ export default function Stats() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <div className="mb-4">
-                <Counter 
-                  number={stat.number} 
-                  suffix={stat.suffix} 
+                <Counter
+                  number={stat.number}
+                  suffix={stat.suffix}
                   inView={inView}
                 />
               </div>
